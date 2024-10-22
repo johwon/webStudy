@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* 헤더영역 */
+
+header{
+    width: 100%;
+    padding: 3px 10px;
+    /* padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px; */
+    color: white;
+    background-color: rgb(0, 3, 90);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto 0 auto;
+    /* margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
+}   
+
+/* nav 영역 */
+nav{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(255, 249, 139);
+}
+
+ul.ul1{
+    list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+}
+
+ul.ul1 li{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 메인 영역 */
+main{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+section.left, section.right{
+    padding: 10px;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+section.right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: end;
+}
+
+/* footer 영역 */
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(227, 249, 238);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer p{
+    text-align: center;
+}
