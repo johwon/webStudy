@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7ab22df35b.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        nav{
+            width: 80%;
+            margin: 0 auto;
+            border: 1px dotted black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            background-color: antiquewhite;
+        }
+        div.nav_logo{
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+        div.nav_logo:hover{
+            background-color: blue;
+        }
+        div.nav_logo i{
+            color: rgba(7, 78, 219);
+            font-size: 32px;
+            margin-right: 5px;
+        }
+        ul.nav_menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            list-style-type: none;
+        }
+        ul.nav_menu a{
+            padding: 8px 15px;
+        }
+        ul.nav_menu a:hover{
+            background-color: aquamarine;
+        }
+        ul.nav_icons{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            list-style-type: none;
+        }
+        ul.nav_icons i.twitter{
+            color: blue;
+        }
+        ul.nav_icons i.house{
+            color: white;
+        }
+        ul.nav_icons a{
+            font-size: 24px;
+            padding: 8px 15px;
+        }
+        ul.nav_icons a:hover{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<style>
+
+</style>
+<body>
+    <nav>
+        <div class="nav_logo">
+            <a href=""><i class="fa-solid fa-person-snowboarding"></i></a>
+            <a href="#">WEB CODING</a>
+        </div>
+
+        <ul class="nav_menu">
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+            <li><a href="#">메뉴5</a></li>
+        </ul>
+
+        <ul class="nav_icons">
+            <li><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-house house"></i></a></li>
+        </ul>
+    </nav>
+</body>
+</html>
